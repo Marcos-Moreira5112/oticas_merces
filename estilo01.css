@@ -1,0 +1,32 @@
+@charset "utf-8";
+
+:root {
+    --cor01: #001c4f;
+    --cor02: #071328;
+}
+
+* {
+    margin: 0px;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    background-color: var(--cor02);
+    height: 70px;
+}
+
+div#divpai {
+    display: block;
+}
+
+ul#ulfilho {
+    display: flex;
+    color: white;
+}
+
+li {
+    margin: 10px;
+}
