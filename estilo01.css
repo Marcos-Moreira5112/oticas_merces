@@ -20,7 +20,7 @@ a {
     text-decoration: none;
 }
 
-/*HEADER*/
+/*----------HEADER----------*/
 
 header {
     display: flex;
@@ -34,20 +34,38 @@ header {
     margin: 3px 0 3px 40px;
 }
 
-div.headerulpai{
-    display: grid;
+div#headerulpai{
+    display: flex;
     align-items: center;
+    justify-content: center;
+    width: 500px ;
 }
 
 ul#headerul {
-    display: grid;
+    display: flex;
     color: white;
-    grid-auto-flow: column;
-    justify-content: center;
-
 }
 
 li {
+    display: flex;
     list-style: none;
-    justify-content: space-between;
+    margin: 20px;
+}
+
+/*-A-*/
+
+a:link {
+    color: white;
+}
+
+a:visited {
+    color: white;
+}
+
+a:hover {
+    color: rgb(179, 179, 179);
+}
+
+a:active {
+    color: rgb(221, 220, 220);
 }
