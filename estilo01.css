@@ -7,26 +7,47 @@
 
 * {
     margin: 0px;
+    padding: 0px;
 }
+
+/*GERAIS*/
 
 body {
     font-family: Arial, Helvetica, sans-serif;
 }
 
+a {
+    text-decoration: none;
+}
+
+/*HEADER*/
+
 header {
-    background-color: var(--cor02);
-    height: 70px;
-}
-
-div#divpai {
-    display: block;
-}
-
-ul#ulfilho {
     display: flex;
+    background-color: var(--cor02);
+    height: 80px;
+    justify-content: space-between;
+}
+
+.headerimg{
+    display: flex;
+    margin: 3px 0 3px 40px;
+}
+
+div.headerulpai{
+    display: grid;
+    align-items: center;
+}
+
+ul#headerul {
+    display: grid;
     color: white;
+    grid-auto-flow: column;
+    justify-content: center;
+
 }
 
 li {
-    margin: 10px;
+    list-style: none;
+    justify-content: space-between;
 }
