@@ -8,6 +8,7 @@
 * {
     margin: 0px;
     padding: 0px;
+    box-sizing: border-box;
 }
 
 
@@ -28,32 +29,38 @@ a {
 
 header {
     display: flex;
+    padding: 0px 30px;
     background-color: var(--cor02);
-    height: 80px;
+    height: 90px;
     justify-content: space-between;
+    align-items: center;
 }
 
-img.headerimg{
-    display: flex;
-    margin: 3px 0 3px 40px;
+.logo{
+    width: 230px;
 }
 
-div#headerulpai{
+.header-ul-pai{
+    
+}
+
+.header-nav {
     display: flex;
+    gap: 35px;
+    color: white;
     align-items: center;
     justify-content: center;
-    width: 500px ;
-}
-
-ul#headerul {
-    display: flex;
-    color: white;
 }
 
 li {
-    display: flex;
     list-style: none;
-    margin: 20px;
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.banner {
+    width: 100vw;
+    max-width: 100%;
 }
 
 
@@ -74,14 +81,6 @@ a:hover {
 
 a:active {
     color: rgb(221, 220, 220);
-}
-
-
-/*----------HEADER----------*/
-
-
-img.paralaximg {
-    width: 100vw;
 }
 
 /*----------FILTRO----------*/
